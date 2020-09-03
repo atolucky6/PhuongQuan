@@ -1,0 +1,30 @@
+﻿<UserControl xmlns:EasyScadaApp="clr-namespace:EasyScadaApp" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EasyScadaApp.Pages"
+             xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" x:Class="EasyScadaApp.Pages.ucKhoNghienSay"
+             mc:Ignorable="d" 
+             d:DesignHeight="922" d:DesignWidth="1912">
+    <Canvas Margin="0,0,0,0">
+
+        <WPFUserControl:KhoNghienTho x:Name="NghienTho3" 
+            Height="468" Width="480" Canvas.Top="269"
+                                     Canvas.Left="-2"/>
+        <WPFUserControl:KhoNghienTinh Height="468" Width="481" Canvas.Left="952" Canvas.Top="269"/>
+        <WPFUserControl:KhoSauSay Height="468" Width="479" Canvas.Left="464" Canvas.Top="269"/>
+        <WPFUserControl:HeThongGiuBui Height="468" Width="480" Canvas.Left="1428" Canvas.Top="269"/>
+
+        <!--KHO NGHIỀN THÔ-->
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoNghienTho" Canvas.Left="127" Canvas.Top="20"/>
+
+        <!--KHO SAU SẤY-->
+        <EasyScadaApp:ThongTinKhoNghien x:Name="thongTinKhoSauSay" Canvas.Left="647" Canvas.Top="20"/>
+
+        <!--GIŨ BỤI TRUNG TÂM-->
+        <EasyScadaApp:GiuBuiTrungTam x:Name="giuBuiTrungTam" Canvas.Left="1597" Canvas.Top="174"/>
+
+
+    </Canvas>
+</UserControl>

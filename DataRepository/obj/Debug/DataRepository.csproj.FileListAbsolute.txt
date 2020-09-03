@@ -1,0 +1,42 @@
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DataRepository.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DataRepository.pdb
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\iDriver.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DriverPluginInterface.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.pdb
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DataRepository.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DataRepository.pdb
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\iDriver.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DriverPluginInterface.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\iDriver.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\bin\Debug\DriverPluginInterface.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\DataRepository\obj\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\bin\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\bin\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\bin\Debug\iDriver.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\bin\Debug\DriverPluginInterface.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\obj\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\DataRepository\obj\Debug\DataRepository.pdb
+E:\Work\Others\EasyScadaApp\DataRepository\bin\Debug\DataRepository.dll
+E:\Work\Others\EasyScadaApp\DataRepository\bin\Debug\DataRepository.pdb
+E:\Work\Others\EasyScadaApp\DataRepository\bin\Debug\iDriver.dll
+E:\Work\Others\EasyScadaApp\DataRepository\bin\Debug\DriverPluginInterface.dll
+E:\Work\Others\EasyScadaApp\DataRepository\obj\Debug\DataRepository.csproj.CoreCompileInputs.cache
+E:\Work\Others\EasyScadaApp\DataRepository\obj\Debug\DataRepository.csproj.CopyComplete
+E:\Work\Others\EasyScadaApp\DataRepository\obj\Debug\DataRepository.dll
+E:\Work\Others\EasyScadaApp\DataRepository\obj\Debug\DataRepository.pdb

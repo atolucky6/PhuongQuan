@@ -1,0 +1,53 @@
+﻿<UserControl xmlns:EasyScadaApp="clr-namespace:EasyScadaApp" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EasyScadaApp.Pages"
+             xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" xmlns:DongCo="clr-namespace:WPFUserControl.DieuKhien.DongCo;assembly=WPFUserControl" xmlns:DongCoThuanNghich="clr-namespace:WPFUserControl.DieuKhien.DongCoThuanNghich;assembly=WPFUserControl" xmlns:Xilanh="clr-namespace:WPFUserControl.DieuKhien.Xilanh;assembly=WPFUserControl" x:Class="EasyScadaApp.Pages.ucMayEpVien"
+             mc:Ignorable="d" 
+            d:DesignHeight="922" d:DesignWidth="1912">
+    <Canvas>
+
+        <!--Máy ép 1-->
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp1" Canvas.Top="619" Canvas.Left="10"/>
+        
+        <!--Máy ép 2-->
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp2" Canvas.Top="619" Canvas.Left="270"/>
+
+        <!--Máy ép 3-->
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp3" Canvas.Top="619" Canvas.Left="530" />
+
+        <!--Máy ép 4-->
+        <EasyScadaApp:ThongTinMayEpVien x:Name="thongTinMayEp4" Canvas.Top="619" Canvas.Left="790" />
+
+
+        <!--SÀN LỒNG-->
+        <EasyScadaApp:SanLong Canvas.Left="1100" Canvas.Top="180"/>
+
+        <!--khối lượng ngày-tháng-->
+        <EasyScadaApp:ThongTinCanTong x:Name="thongTinCanTong" Canvas.Top="820" Canvas.Left="1644"/>
+
+        <!--khối lượng Cân 1-->
+        <EasyScadaApp:ThongTinCan x:Name="ThongTinCan1" Canvas.Top="600" Canvas.Left="1644"/>
+
+        <!--khối lượng Cân 2-->
+        <EasyScadaApp:ThongTinCan x:Name="ThongTinCan2" Canvas.Top="710" Canvas.Left="1644"/>
+
+
+        <WPFUserControl:MayEpVien Height="354" Canvas.Left="37" Canvas.Top="254" Width="942"/>
+        <WPFUserControl:HeThongPhuTroEpVien Height="405" Canvas.Left="949" Canvas.Top="254" Width="953"/>
+
+
+
+
+        <StackPanel Canvas.Left="1600" Canvas.Top="10" Orientation="Horizontal">
+            <Xilanh:ucDieuKhienXilanh Height="100" Canvas.Left="1482" Canvas.Top="-186" Width="100"/>
+            <DongCoThuanNghich:ucDongCoChayThuanNghich Height="100" Canvas.Left="1802" Canvas.Top="-152" Width="100"/>
+            <DongCo:ucDongCoChayDung Height="100" Canvas.Left="200" Canvas.Top="200" Width="100"/>
+
+        </StackPanel>
+        
+
+    </Canvas>
+</UserControl>

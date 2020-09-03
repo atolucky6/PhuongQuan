@@ -1,0 +1,196 @@
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WPFUserControl.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WPFUserControl.pdb
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DataRepository.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\iDriver.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DriverPluginInterface.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DataRepository.pdb
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.cache
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.lref
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.baml
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.g.resources
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.Properties.Resources.resources
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.GenerateResource.cache
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.CoreCompileInputs.cache
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.dll
+F:\ATPro\Project\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.pdb
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WPFUserControl.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WPFUserControl.pdb
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DataRepository.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\iDriver.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DriverPluginInterface.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DataRepository.pdb
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.cache
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.lref
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.baml
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.g.resources
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.Properties.Resources.resources
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.GenerateResource.cache
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.CoreCompileInputs.cache
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.dll
+E:\Work\ATSCADA\Projects\InProgress\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\iDriver.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DriverPluginInterface.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.lref
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.g.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.Properties.Resources.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.GenerateResource.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\GIAM SAT MAY PHUN BI - CTY PHUONG QUAN\Project_1\ATSCADAlab.SCADA\WPFUserControl\obj\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\DataRepository.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\iDriver.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\DriverPluginInterface.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\DataRepository.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\WpfAnimatedGif.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.lref
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.g.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.Properties.Resources.resources
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csproj.GenerateResource.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csproj.CoreCompileInputs.cache
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.dll
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.pdb
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.baml
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.g.cs
+D:\Works\DuAn\2020\PhuongQuan\SourceCode\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\WPFUserControl.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\WPFUserControl.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\WpfAnimatedGif.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\WpfAnimatedGif.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\WpfAnimatedGif.xml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.cache
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl_MarkupCompile.lref
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCoThuanNghich\ucDongCoChayThuanNghich.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\DongCo\ucDongCoChayDung.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\DieuKhien\Xilanh\ucDieuKhienXilanh.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\HeThongGiuBui\HeThongGiuBui.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\HeThongPhuTroEpVien\HeThongPhuTroEpVien.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTho\KhoNghienTho.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\KhoNghienTinh\KhoNghienTinh.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\KhoSauSay\KhoSauSay.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\MayEpVien\MayEpVien.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTho\MayNghienTho.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\MayNghienTinh\MayNghienTinh.baml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.g.resources
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.Properties.Resources.resources
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csproj.GenerateResource.cache
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csproj.CoreCompileInputs.cache
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csproj.CopyComplete
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\EasyScada.Core.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\EasyScada.Wpf.Connector.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\EasyScada.Wpf.Controls.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\Newtonsoft.Json.dll
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\EasyScada.Core.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\EasyScada.Wpf.Connector.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\EasyScada.Wpf.Controls.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\Microsoft.AspNet.SignalR.Client.pdb
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+E:\Work\Others\EasyScadaApp\WPFUserControl\bin\Debug\Newtonsoft.Json.xml
+E:\Work\Others\EasyScadaApp\WPFUserControl\obj\Debug\WPFUserControl.csprojAssemblyReference.cache

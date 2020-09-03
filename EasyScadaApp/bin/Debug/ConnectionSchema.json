@@ -1,0 +1,3772 @@
+{
+  "ServerAddress": "127.0.0.1",
+  "Port": 8800,
+  "CommunicationMode": 1,
+  "RefreshRate": 500,
+  "CreatedDate": "2020-08-17T15:40:19.4850259+07:00",
+  "Stations": [
+    {
+      "Name": "Local Station",
+      "OpcDaServerName": null,
+      "RemoteAddress": null,
+      "Port": 0,
+      "Error": null,
+      "StationType": 0,
+      "CommunicationMode": 0,
+      "ConnectionStatus": 1,
+      "RefreshRate": 0,
+      "LastRefreshTime": "0001-01-01T00:00:00",
+      "Parameters": {},
+      "Channels": [],
+      "RemoteStations": [],
+      "Path": "Local Station",
+      "Checked": true
+    },
+    {
+      "Name": "RemoteStation1",
+      "OpcDaServerName": "opcda://localhost/Mitsubishi.MXOPC.6",
+      "RemoteAddress": "localhost",
+      "Port": 135,
+      "Error": null,
+      "StationType": 2,
+      "CommunicationMode": 1,
+      "ConnectionStatus": 1,
+      "RefreshRate": 1000,
+      "LastRefreshTime": "0001-01-01T00:00:00",
+      "Parameters": {},
+      "Channels": [
+        {
+          "Name": "PLCNghien",
+          "DriverName": "",
+          "LastRefreshTime": "0001-01-01T00:00:00",
+          "Error": null,
+          "Devices": [
+            {
+              "Name": "MayNghienTho1",
+              "Parameters": null,
+              "LastRefreshTime": "0001-01-01T00:00:00",
+              "Error": null,
+              "Tags": [
+                {
+                  "Name": "BaoAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BaoAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BaoAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BaoCamBienNapPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BaoCamBienNapPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BaoCamBienNapTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BaoCamBienNapTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BatBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BatBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatChayMayNghienThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BatChayMayNghienThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BatChayMayNghienThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatMayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BatMayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BatMayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.BatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/BatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoAuto",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.CheDoAuto"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/CheDoAuto",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoManual",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.CheDoManual"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/CheDoManual",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.DongBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/DongBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.DongMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/DongMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.DongQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/DongQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.GoiBiPhaiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/GoiBiPhaiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.GoiBiPhaiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/GoiBiPhaiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.GoiBiTraiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/GoiBiTraiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.GoiBiTraiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/GoiBiTraiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "MayNghienQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.MayNghienQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/MayNghienQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "NangSuat",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.NangSuat"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/NangSuat",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhapTanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.NhapTanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/NhapTanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.NhietDoGoiBiPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/NhietDoGoiBiPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.NhietDoGoiBiPhaiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/NhietDoGoiBiPhaiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.NhietDoGoiBiTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/NhietDoGoiBiTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.NhietDoGoiBiTraiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/NhietDoGoiBiTraiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "QuatHutQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.QuatHutQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/QuatHutQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "ResetAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.ResetAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/ResetAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "TanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.TanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/TanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.TatMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/TatMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.TatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/TatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianChayMay",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.ThoiGianChayMay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/ThoiGianChayMay",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianThayBua",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.ThoiGianThayBua"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/ThoiGianThayBua",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiCapLieuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.View_BangTaiCapLieuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/View_BangTaiCapLieuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiTuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.View_BangTaiTuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/View_BangTaiTuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.View_MayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/View_MayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.View_MayNghienChayThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/View_MayNghienChayThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_QuatHutChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho1.View_QuatHutChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho1/View_QuatHutChay",
+                  "Checked": true
+                }
+              ],
+              "Path": "RemoteStation1/PLCNghien/MayNghienTho1",
+              "Checked": true
+            },
+            {
+              "Name": "MayNghienTho2",
+              "Parameters": null,
+              "LastRefreshTime": "0001-01-01T00:00:00",
+              "Error": null,
+              "Tags": [
+                {
+                  "Name": "BangTaiCapLieuQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BangTaiCapLieuQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BangTaiCapLieuQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BaoAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BaoAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BaoCamBienNapPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BaoCamBienNapPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BaoCamBienNapTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BaoCamBienNapTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BatBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BatBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatChayMayNghienThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BatChayMayNghienThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BatChayMayNghienThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatMayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BatMayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BatMayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.BatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/BatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoAuto",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.CheDoAuto"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/CheDoAuto",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoManual",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.CheDoManual"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/CheDoManual",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.DongBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/DongBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.DongMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/DongMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.DongQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/DongQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.GoiBiPhaiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/GoiBiPhaiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.GoiBiPhaiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/GoiBiPhaiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.GoiBiTraiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/GoiBiTraiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.GoiBiTraiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/GoiBiTraiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "MayNghienQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.MayNghienQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/MayNghienQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "NangSuat",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.NangSuat"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/NangSuat",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhapTanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.NhapTanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/NhapTanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.NhietDoGoiBiPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/NhietDoGoiBiPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.NhietDoGoiBiPhaiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/NhietDoGoiBiPhaiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.NhietDoGoiBiTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/NhietDoGoiBiTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.NhietDoGoiBiTraiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/NhietDoGoiBiTraiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "QuatHutQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.QuatHutQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/QuatHutQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "ResetAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.ResetAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/ResetAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "TanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.TanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/TanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.TatMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/TatMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.TatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/TatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianChayMay",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.ThoiGianChayMay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/ThoiGianChayMay",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianThayBua",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.ThoiGianThayBua"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/ThoiGianThayBua",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiCapLieuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.View_BangTaiCapLieuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/View_BangTaiCapLieuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiTuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.View_BangTaiTuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/View_BangTaiTuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.View_MayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/View_MayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.View_MayNghienChayThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/View_MayNghienChayThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_QuatHutChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho2.View_QuatHutChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho2/View_QuatHutChay",
+                  "Checked": true
+                }
+              ],
+              "Path": "RemoteStation1/PLCNghien/MayNghienTho2",
+              "Checked": true
+            },
+            {
+              "Name": "MayNghienTho3",
+              "Parameters": null,
+              "LastRefreshTime": "0001-01-01T00:00:00",
+              "Error": null,
+              "Tags": [
+                {
+                  "Name": "BangTaiCapLieuQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BangTaiCapLieuQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BangTaiCapLieuQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BaoAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BaoAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BaoCamBienNapPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BaoCamBienNapPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BaoCamBienNapTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BaoCamBienNapTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BatBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BatBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatChayMayNghienThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BatChayMayNghienThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BatChayMayNghienThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatMayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BatMayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BatMayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.BatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/BatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoAuto",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.CheDoAuto"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/CheDoAuto",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoManual",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.CheDoManual"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/CheDoManual",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.DongBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/DongBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.DongMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/DongMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.DongQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/DongQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.GoiBiPhaiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/GoiBiPhaiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.GoiBiPhaiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/GoiBiPhaiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.GoiBiTraiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/GoiBiTraiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.GoiBiTraiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/GoiBiTraiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "MayNghienQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.MayNghienQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/MayNghienQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "NangSuat",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.NangSuat"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/NangSuat",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhapTanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.NhapTanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/NhapTanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.NhietDoGoiBiPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/NhietDoGoiBiPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.NhietDoGoiBiPhaiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/NhietDoGoiBiPhaiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.NhietDoGoiBiTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/NhietDoGoiBiTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.NhietDoGoiBiTraiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/NhietDoGoiBiTraiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "QuatHutQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.QuatHutQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/QuatHutQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "ResetAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.ResetAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/ResetAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "TanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.TanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/TanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.TatMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/TatMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.TatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/TatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianChayMay",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.ThoiGianChayMay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/ThoiGianChayMay",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianThayBua",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.ThoiGianThayBua"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/ThoiGianThayBua",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiCapLieuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.View_BangTaiCapLieuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/View_BangTaiCapLieuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiTuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.View_BangTaiTuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/View_BangTaiTuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.View_MayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/View_MayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.View_MayNghienChayThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/View_MayNghienChayThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_QuatHutChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho3.View_QuatHutChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho3/View_QuatHutChay",
+                  "Checked": true
+                }
+              ],
+              "Path": "RemoteStation1/PLCNghien/MayNghienTho3",
+              "Checked": true
+            },
+            {
+              "Name": "MayNghienTho4",
+              "Parameters": null,
+              "LastRefreshTime": "0001-01-01T00:00:00",
+              "Error": null,
+              "Tags": [
+                {
+                  "Name": "BangTaiCapLieuQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BangTaiCapLieuQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BangTaiCapLieuQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BaoAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BaoAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BaoCamBienNapPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BaoCamBienNapPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BaoCamBienNapTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BaoCamBienNapTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BatBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BatBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatChayMayNghienThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BatChayMayNghienThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BatChayMayNghienThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatMayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BatMayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BatMayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.BatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/BatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoAuto",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.CheDoAuto"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/CheDoAuto",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoManual",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.CheDoManual"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/CheDoManual",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.DongBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/DongBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.DongMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/DongMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.DongQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/DongQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.GoiBiPhaiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/GoiBiPhaiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.GoiBiPhaiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/GoiBiPhaiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.GoiBiTraiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/GoiBiTraiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.GoiBiTraiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/GoiBiTraiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "MayNghienQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.MayNghienQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/MayNghienQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "NangSuat",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.NangSuat"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/NangSuat",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhapTanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.NhapTanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/NhapTanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.NhietDoGoiBiPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/NhietDoGoiBiPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.NhietDoGoiBiPhaiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/NhietDoGoiBiPhaiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.NhietDoGoiBiTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/NhietDoGoiBiTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.NhietDoGoiBiTraiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/NhietDoGoiBiTraiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "QuatHutQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.QuatHutQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/QuatHutQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "ResetAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.ResetAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/ResetAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "TanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.TanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/TanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.TatMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/TatMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.TatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/TatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianChayMay",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.ThoiGianChayMay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/ThoiGianChayMay",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianThayBua",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.ThoiGianThayBua"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/ThoiGianThayBua",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiCapLieuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.View_BangTaiCapLieuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/View_BangTaiCapLieuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiTuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.View_BangTaiTuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/View_BangTaiTuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.View_MayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/View_MayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.View_MayNghienChayThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/View_MayNghienChayThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_QuatHutChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTho4.View_QuatHutChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTho4/View_QuatHutChay",
+                  "Checked": true
+                }
+              ],
+              "Path": "RemoteStation1/PLCNghien/MayNghienTho4",
+              "Checked": true
+            },
+            {
+              "Name": "MayNghienTinh1",
+              "Parameters": null,
+              "LastRefreshTime": "0001-01-01T00:00:00",
+              "Error": null,
+              "Tags": [
+                {
+                  "Name": "BangTaiCapLieuQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BangTaiCapLieuQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BangTaiCapLieuQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BaoAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BaoAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BaoCamBienNapPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BaoCamBienNapPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BaoCamBienNapTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BaoCamBienNapTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BatBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BatBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatChayMayNghienThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BatChayMayNghienThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BatChayMayNghienThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatMayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BatMayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BatMayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.BatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/BatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoAuto",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.CheDoAuto"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/CheDoAuto",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoManual",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.CheDoManual"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/CheDoManual",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.DongBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/DongBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.DongMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/DongMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.DongQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/DongQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.GoiBiPhaiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/GoiBiPhaiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.GoiBiPhaiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/GoiBiPhaiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.GoiBiTraiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/GoiBiTraiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.GoiBiTraiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/GoiBiTraiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "MayNghienQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.MayNghienQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/MayNghienQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "NangSuat",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.NangSuat"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/NangSuat",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhapTanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.NhapTanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/NhapTanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.NhietDoGoiBiPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/NhietDoGoiBiPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.NhietDoGoiBiPhaiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/NhietDoGoiBiPhaiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.NhietDoGoiBiTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/NhietDoGoiBiTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.NhietDoGoiBiTraiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/NhietDoGoiBiTraiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "QuatHutQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.QuatHutQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/QuatHutQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "ResetAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.ResetAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/ResetAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "TanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.TanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/TanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.TatMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/TatMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.TatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/TatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianChayMay",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.ThoiGianChayMay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/ThoiGianChayMay",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianThayBua",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.ThoiGianThayBua"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/ThoiGianThayBua",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiCapLieuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.View_BangTaiCapLieuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/View_BangTaiCapLieuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiTuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.View_BangTaiTuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/View_BangTaiTuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.View_MayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/View_MayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.View_MayNghienChayThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/View_MayNghienChayThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_QuatHutChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh1.View_QuatHutChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh1/View_QuatHutChay",
+                  "Checked": true
+                }
+              ],
+              "Path": "RemoteStation1/PLCNghien/MayNghienTinh1",
+              "Checked": true
+            },
+            {
+              "Name": "MayNghienTinh2",
+              "Parameters": null,
+              "LastRefreshTime": "0001-01-01T00:00:00",
+              "Error": null,
+              "Tags": [
+                {
+                  "Name": "BangTaiCapLieuQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BangTaiCapLieuQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BangTaiCapLieuQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BaoAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BaoAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BaoCamBienNapPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BaoCamBienNapPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BaoCamBienNapTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BaoCamBienNapTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BaoCamBienNapTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BatBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BatBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatChayMayNghienThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BatChayMayNghienThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BatChayMayNghienThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatMayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BatMayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BatMayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "BatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.BatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/BatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoAuto",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.CheDoAuto"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/CheDoAuto",
+                  "Checked": true
+                },
+                {
+                  "Name": "CheDoManual",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.CheDoManual"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/CheDoManual",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.DongBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/DongBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.DongMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/DongMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "DongQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.DongQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/DongQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.GoiBiPhaiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/GoiBiPhaiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiPhaiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.GoiBiPhaiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/GoiBiPhaiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiMayNghienQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.GoiBiTraiMayNghienQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/GoiBiTraiMayNghienQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "GoiBiTraiQuatHutQuaNhiet",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.GoiBiTraiQuatHutQuaNhiet"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/GoiBiTraiQuatHutQuaNhiet",
+                  "Checked": true
+                },
+                {
+                  "Name": "MayNghienQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.MayNghienQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/MayNghienQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "NangSuat",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.NangSuat"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/NangSuat",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhapTanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.NhapTanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/NhapTanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.NhietDoGoiBiPhaiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/NhietDoGoiBiPhaiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiPhaiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.NhietDoGoiBiPhaiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/NhietDoGoiBiPhaiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiMayNghien",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.NhietDoGoiBiTraiMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/NhietDoGoiBiTraiMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "NhietDoGoiBiTraiQuatHut",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.NhietDoGoiBiTraiQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/NhietDoGoiBiTraiQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "QuatHutQuaDong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.QuatHutQuaDong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/QuatHutQuaDong",
+                  "Checked": true
+                },
+                {
+                  "Name": "ResetAlarmHeThong",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.ResetAlarmHeThong"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/ResetAlarmHeThong",
+                  "Checked": true
+                },
+                {
+                  "Name": "TanSoBangTaiCapLieu",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.TanSoBangTaiCapLieu"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/TanSoBangTaiCapLieu",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatMayNghien",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.TatMayNghien"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/TatMayNghien",
+                  "Checked": true
+                },
+                {
+                  "Name": "TatQuatHut",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 1,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.TatQuatHut"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/TatQuatHut",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianChayMay",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.ThoiGianChayMay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/ThoiGianChayMay",
+                  "Checked": true
+                },
+                {
+                  "Name": "ThoiGianThayBua",
+                  "Address": null,
+                  "DataType": "Word",
+                  "Value": "49",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.ThoiGianThayBua"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/ThoiGianThayBua",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiCapLieuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.View_BangTaiCapLieuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/View_BangTaiCapLieuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_BangTaiTuChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.View_BangTaiTuChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/View_BangTaiTuChay",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayNghich",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.View_MayNghienChayNghich"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/View_MayNghienChayNghich",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_MayNghienChayThuan",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.View_MayNghienChayThuan"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/View_MayNghienChayThuan",
+                  "Checked": true
+                },
+                {
+                  "Name": "View_QuatHutChay",
+                  "Address": null,
+                  "DataType": "Bool",
+                  "Value": "1",
+                  "Quality": 2,
+                  "RefreshRate": 50,
+                  "RefreshInterval": 0,
+                  "AccessPermission": 0,
+                  "Error": null,
+                  "TimeStamp": "2020-08-17T15:40:19.817",
+                  "Parameters": {
+                    "ItemId": "PLCNghien.MayNghienTinh2.View_QuatHutChay"
+                  },
+                  "Path": "RemoteStation1/PLCNghien/MayNghienTinh2/View_QuatHutChay",
+                  "Checked": true
+                }
+              ],
+              "Path": "RemoteStation1/PLCNghien/MayNghienTinh2",
+              "Checked": true
+            }
+          ],
+          "Parameters": null,
+          "Path": "RemoteStation1/PLCNghien",
+          "Checked": true
+        }
+      ],
+      "RemoteStations": [
+        null
+      ],
+      "Path": "RemoteStation1",
+      "Checked": true
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="WPFUserControl.KhoSauSay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUserControl"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ConvertToVisibility x:Key="convertToVisibility" />
+    </UserControl.Resources>
+    <Viewbox>
+        <Grid>
+            <!-- ANH NEN -->
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay.png" Margin="0,-2,0,169" />
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay2.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1380,2176,0,0" Width="1241"/>
+
+            <!-- 1. XI LANH 1 -->
+            <Image Visibility="{Binding Path=View_XiLanh1Chay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="499,1601,0,0" Width="1569" Height="107"/>
+            <Image Visibility="{Binding Path=View_XiLanh1Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="203,1623,0,0" Width="276" Height="52"/>
+
+            <Image Visibility="{Binding Path=View_XiLanh1Tien, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2264,1623,0,0" Height="57" />
+            <Image Visibility="{Binding Path=View_XiLanh1Lui, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2264,1623,0,0" Height="57" />
+
+            <!-- 2. XI LANH 2 -->
+            <Image Visibility="{Binding Path=View_XiLanh2Chay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="499,1682,0,0" Width="1569"/>
+            <Image Visibility="{Binding Path=View_XiLanh2Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="203,1704,0,0" Width="276" Height="52"/>
+
+            <Image Visibility="{Binding Path=View_XiLanh2Tien, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2264,1704,0,0" Height="57" />
+            <Image Visibility="{Binding Path=View_XiLanh2Lui, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2264,1704,0,0" Height="57" />
+
+            <!-- 3. XI LANH 3 -->
+            <Image Visibility="{Binding Path=View_XiLanh3Chay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="499,1763,0,0" Width="1569"/>
+            <Image Visibility="{Binding Path=View_XiLanh3Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="203,1785,0,0" Width="276" Height="52"/>
+
+            <Image Visibility="{Binding Path=View_XiLanh3Tien, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2264,1785,0,0" Height="57" />
+            <Image Visibility="{Binding Path=View_XiLanh3Lui, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2264,1785,0,0" Height="57" />
+
+            <!-- 4. XI LANH 4 -->
+            <Image Visibility="{Binding Path=View_XiLanh4Chay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_LuotKhoNgoaiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="499,1843,0,0" Width="1569"/>
+            <Image Visibility="{Binding Path=View_XiLanh4Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_XiLanhChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="203,1866,0,0" Width="276" Height="52"/>
+
+            <Image Visibility="{Binding Path=View_XiLanh4Tien, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" Margin="2264,1866,0,0" Height="57" />
+            <Image Visibility="{Binding Path=View_XiLanh4Lui, Converter={StaticResource convertToVisibility}}" VerticalAlignment="Top" HorizontalAlignment="Left" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" Margin="2264,1866,0,0" Height="57" />
+
+            <!-- 5. VÍT TẢI CẤP LIỆU 1 -->
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu1Chay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_VitTaiCapLieu1Chay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="611,894,0,0" Width="1617" Height="131"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu1Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2247,903,0,0"/>
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2247,903,0,0"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu1ChayThuan, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2409,924,0,0" Width="80"/>
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu1ChayNghich, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2409,924,0,0" Width="80"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu1BaoDay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="280,908,0,0"/>
+
+            <!-- 6. VÍT TẢI CẤP LIỆU 2 -->
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu2Chay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_VitTaiCapLieu2Chay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="611,1054,0,0" Width="1627" Height="131"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu2Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2247,1064,0,0"/>
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2247,1064,0,0"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu2ChayThuan, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/VitTaiThuanXiLanhTien.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2409,1085,0,0" Width="80" />
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu2ChayNghich, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/VitTaiNghichXiLanhLui.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2409,1085,0,0" Width="80" />
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieu2BaoDay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="280,1070,0,0"/>
+
+            <!-- 7. VÍT TẢI CẤP LIỆU MÁY NGHIỀN TINH A -->
+            <Image Visibility="{Binding Path=View_VitTaiCapLieuMayNghienTinhChay_A, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_VitTaiCapLieuMayNghienTinhChay_A.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1220,2039,0,0" Width="1061"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieuMayNghienTinhChay_A, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2307,2050,0,0"/>
+            <Image Visibility="{Binding Path=View_VitTaiCapLieuMayNghienTinhQuaDong_A, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2307,2050,0,0"/>
+
+            <!-- 8. VÍT TẢI CẤP LIỆU MÁY NGHIỀN TINH B -->
+            <Image Visibility="{Binding Path=View_VitTaiCapLieuMayNghienTinhChay_B, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_VitTaiCapLieuMayNghienTinhChay_B.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1389,2172,0,0" Width="1090" />
+
+            <Image Visibility="{Binding Path=View_VitTaiCapLieuMayNghienTinhChay_B, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2480,2184,0,0" />
+            <Image Visibility="{Binding Path=View_VitTaiCapLieuMayNghienTinhQuaDong_B, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiCapLieuLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2480,2184,0,0" />
+
+            <!-- 9. VÍT TẢI RA LIỆU -->
+            <Image Visibility="{Binding Path=View_VitTaiRaLieuChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_VitTaiRaLieuChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2070,1615,0,0" Height="495"/>
+
+            <Image Visibility="{Binding Path=View_VitTaiRaLieuChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiRaLieuChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2092,1995,0,0"/>
+            <Image Visibility="{Binding Path=View_VitTaiRaLieuQuaDong, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorVitTaiRaLieuLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="2092,1995,0,0"/>
+
+            <!-- 10. BƠM DẦU 1 -->
+            <Image Visibility="{Binding Path=View_BomDau1Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorBomDauChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="175,1411,0,0" />
+            <Image Visibility="{Binding Path=View_BomDau1QuaDong, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorBomDauLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="175,1411,0,0" />
+
+            <!-- 11. BƠM DẦU 2 -->
+            <Image Visibility="{Binding Path=View_BomDau2Chay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorBomDauChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="344,1411,0,0" />
+            <Image Visibility="{Binding Path=View_BomDau2QuaDong, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/KhoSauSay/KhoSauSay_MotorBomDauLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="344,1411,0,0" />
+
+            <!-- 12. BỒN DẦU -->
+            <Image Visibility="{Binding Path=View_BonDauQuaNhiet, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="280,1276,0,0"/>
+
+
+        </Grid>
+    </Viewbox>
+</UserControl>

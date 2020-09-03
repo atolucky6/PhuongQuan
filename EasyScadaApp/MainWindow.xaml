@@ -1,0 +1,48 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EasyScadaApp"
+        xmlns:connector="clr-namespace:EasyScada.Wpf.Connector;assembly=EasyScada.Wpf.Connector"
+        xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" xmlns:Pages="clr-namespace:EasyScadaApp.Pages" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="EasyScadaApp.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" WindowStyle="None" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <connector:EasyDriverConnector/>
+        <Grid Grid.Row="0" Background="Black">
+            <TextBlock Text="NHÀ MÁY VIÊN NÉN NĂNG LƯỢNG Ý MỸ - KCN PHÚ BÀI " 
+                       FontSize="40" FontFamily="Times New Roman" FontWeight="Bold" Foreground="DarkGoldenrod"
+                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <DockPanel Grid.Row="1" LastChildFill="True" Background="Gray">
+
+            <Pages:ucNghienThoTinh x:Name="NghienTho" Visibility="Visible"/>
+            <Pages:ucKhoNghienSay x:Name="KhoNghien" Visibility="Hidden"/>
+
+            <Pages:ucMayEpVien x:Name="MayEpVien" Visibility="Hidden"></Pages:ucMayEpVien>
+
+        </DockPanel>
+        <DockPanel Grid.Row="2" Background="Black" LastChildFill="True">
+            <Button DockPanel.Dock="Left" x:Name="btnHome" Margin="8 0 0 0" Content="Trang Chủ" Click="BtnHome_Click" Width="130" FontSize="20"/>
+            <Button x:Name="btnAlarm" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Cảnh Báo" Click="BtnAlarm_Click" Width="120" FontSize="20"/>
+            <Button x:Name="btnTrend" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Biểu Đồ" Click="BtnTrend_Click" Width="120" FontSize="20"/>
+            <Button x:Name="btnSettings" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Cài Đặt" Width="100" FontSize="20" Click="BtnSettings_Click"/>
+            <Button x:Name="btnReset" DockPanel.Dock="Left" Margin="8 0 0 0" Content="Reset" Width="100" FontSize="20" HorizontalAlignment="Left" Click="BtnReset_Click"/>
+            <Button DockPanel.Dock="Left" x:Name="btnExit" Margin="8 0 0 0" Content="Thoát"  Width="100" FontSize="20" Click="BtnExit_Click"/>
+            <Label DockPanel.Dock="Right" x:Name="labThoiGian" 
+                   Content="dd/MM/yyyy HH:mm:ss" 
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Center"
+                   FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"
+                   />
+
+
+        </DockPanel>
+    </Grid>
+</Window>

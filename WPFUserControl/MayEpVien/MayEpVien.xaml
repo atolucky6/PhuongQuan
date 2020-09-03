@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="WPFUserControl.MayEpVien"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUserControl"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ConvertToVisibility x:Key="convertToVisibility" />
+    </UserControl.Resources>
+    <Viewbox Margin="0,-166,0,0">
+        <Grid>
+
+            <!-- ANH NEN -->
+
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien.png" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBui.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="289,396,0,0" Height="66" Width="64" />
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBui.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="872,396,0,0" Height="66" Width="64" />
+
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBDung.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="767,391,0,0"/>
+
+            <Image Visibility="Visible" Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="676,-121,0,0"/>
+
+            <!-- BANG TAI CAP LIEU -->
+
+            <Image gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_BangTai.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="677,16,0,0" Height="71" Width="333"/>
+            <Image gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_BangTai.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="752,-72,0,0" Height="71" Width="335"/>
+
+            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="686,-25,0,0"/>
+            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="688,-25,0,0"/>
+
+            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="763,-113,0,0"/>
+            <Image Source="/WPFUserControl;component/Image/BangTaiCapLieuEpVien/BangTaiCapLieuEpVien_MotorBangTaiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="764,-113,0,0"/>
+
+            <!-- EP VIEN 1 -->
+
+            <Image Visibility="{Binding Path=View_EpVien1MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="153,470,0,0" Width="40" Height="83"/>
+            <Image Visibility="{Binding Path=View_EpVien1MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="192,418,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien1MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="192,418,0,0"/>
+
+
+            <Image Visibility="{Binding Path=View_EpVien1MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="154,410,0,0" Height="61" Width="40"/>
+            <Image Visibility="{Binding Path=View_EpVien1MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="151,464,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien1MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="152,468,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien1FeederAChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiFeederAChay.gif"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="548,133,0,0" Height="141" Width="53"/>
+            <Image Visibility="{Binding Path=View_EpVien1FeederAChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="547,273,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien1FeederALoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="547,271,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien1FeederBChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1VitTaiFeederBChay.gif"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="103,269,0,0" Width="459"/>
+            <Image Visibility="{Binding Path=View_EpVien1FeederBChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,381,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien1FeederBLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien1FeederBLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100,382,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien1DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,453,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien1DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="67,451,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien1DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="194,453,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien1DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="193,453,0,0" Width="81"/>
+
+
+            <!-- EP VIEN 2 -->
+
+            <Image Visibility="{Binding Path=View_EpVien2MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="444,470,0,0" Width="40" Height="83"/>
+            <Image Visibility="{Binding Path=View_EpVien2MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="484,418,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien2MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="484,418,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien2MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="445,397,0,0" Height="74" Width="40"/>
+            <Image Visibility="{Binding Path=View_EpVien2MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="442,464,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien2MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="443,468,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien2FeederAChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiFeederAChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="581,132,0,0" Height="165" Width="44"/>
+            <Image Visibility="{Binding Path=View_EpVien2FeederAChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="583,298,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien2FeederALoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="584,297,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien2FeederBChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien2VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="382,299,0,0" Width="230" Height="129"/>
+
+            <Image Visibility="{Binding Path=View_EpVien2DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="358,454,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien2DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="358,452,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien2DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="486,453,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien2DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="485,453,0,0" Width="81"/>
+
+            <!-- EP VIEN 3 -->
+
+            <Image Visibility="{Binding Path=View_EpVien3MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="736,470,0,0" Width="40" Height="83"/>
+            <Image Visibility="{Binding Path=View_EpVien3MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="776,418,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien3MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="776,418,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien3MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="737,414,0,0" Height="68" Width="39"/>
+            <Image Visibility="{Binding Path=View_EpVien3MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="734,464,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien3MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="735,468,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien3FeederAChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiFeederAChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="639,133,0,0" Height="166"/>
+            <Image Visibility="{Binding Path=View_EpVien3FeederAChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="638,298,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien3FeederALoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="638,296,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien3FeederBChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="657,303,0,0" Height="146" Width="189"/>
+            <Image Visibility="{Binding Path=View_EpVien3FeederBChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="768,393,0,0" Height="54"/>
+            <Image Visibility="{Binding Path=View_EpVien3FeederBLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien3FeederBLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="768,393,0,0" Height="54"/>
+
+            <Image Visibility="{Binding Path=View_EpVien3DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="650,454,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien3DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="650,452,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien3DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="778,453,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien3DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="777,453,0,0" Width="81"/>
+
+            <!-- EP VIEN 4 -->
+
+            <Image Visibility="{Binding Path=View_EpVien4MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_VitTaiMixer2.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1028,470,0,0" Width="40" Height="83"/>
+            <Image Visibility="{Binding Path=View_EpVien4MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1068,418,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien4MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1068,418,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien4MixerChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiMixer1.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1029,405,0,0" Height="66" Width="37"/>
+            <Image Visibility="{Binding Path=View_EpVien4MixerChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1026,464,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien4MixerLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_Mixer1Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1027,468,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien4FeederAChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederAChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="673,133,0,0" Height="138"/>
+            <Image Visibility="{Binding Path=View_EpVien4FeederAChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederAChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,272,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien4FeederALoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_FeederALoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="674,272,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien4FeederBChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4VitTaiFeederBChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="697,278,0,0" Width="377"/>
+            <Image Visibility="{Binding Path=View_EpVien4FeederBChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1060,385,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien4FeederBLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_EpVien4FeederBLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1061,383,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien4DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Chay.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="942,453,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien4DongCoChinh1Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh1Loi.png"  VerticalAlignment="Top" HorizontalAlignment="Left" Margin="942,451,0,0"/>
+
+            <Image Visibility="{Binding Path=View_EpVien4DongCoChinhChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Chay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1070,453,0,0"/>
+            <Image Visibility="{Binding Path=View_EpVien4DongCoChinh2Loi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_DongCoChinh2Loi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1069,453,0,0" Width="81"/>
+
+            <!-- HE THONG PHU TRO -->
+
+            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="289,396,0,0" Height="66" Width="64" />
+            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="292,401,0,0" Height="58" Width="60"/>
+
+            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiChay.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="872,396,0,0" Height="66" Width="64" />
+            <Image Visibility="{Binding Path=View_QuatHutBuiEpVienLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_QuatHutBuiLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="875,401,0,0" Height="58" Width="60"/>
+
+            <Image Visibility="{Binding Path=View_BangTaiRaVienChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/MayEpVien/MayEpVien_BangTaiRaVien.gif" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,623,-17,-20" Height="124" Width="1254" />
+            <Image Visibility="{Binding Path=View_BangTaiRaVienChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_MotorBangTaiRaVienChay.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="16,630,0,0"/>
+            <Image Visibility="{Binding Path=View_BangTaiRaVienLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/MayEpVien/MayEpVien_MotorBangTaiRaVienLoi.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="13,628,0,0"/>
+
+            <!-- ALARM -->
+
+            <Image Visibility="{Binding Path=View_BinChuaLieuEpVienBaoThap, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="451,85,0,0" Height="39" Width="43"/>
+            <Image Visibility="{Binding Path=View_BinChuaLieuEpVienBaoCao, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/Symbol/Alarm.png" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="451,0,0,0" Height="39" Width="43"/>
+
+        </Grid>
+    </Viewbox>
+</UserControl>

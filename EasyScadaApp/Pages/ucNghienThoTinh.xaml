@@ -1,0 +1,118 @@
+﻿<UserControl xmlns:EasyScadaApp="clr-namespace:EasyScadaApp" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:EasyScadaApp.Pages"
+             xmlns:WPFUserControl="clr-namespace:WPFUserControl;assembly=WPFUserControl" x:Class="EasyScadaApp.Pages.ucNghienThoTinh"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="13"
+             TextOptions.TextFormattingMode="Ideal"
+             TextOptions.TextRenderingMode="Auto"      
+             mc:Ignorable="d" 
+             d:DesignHeight="922" d:DesignWidth="1912">
+    <Canvas>
+        <!-- Label machineName-->
+        <Label Name="labMayNghienTho1" Canvas.Left="128"
+               Content="MÁY NGHIỀN THÔ 1" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="52"
+               />
+
+        <Label Name="labMayNghienTho2" Canvas.Top="480" Canvas.Left="128"
+               Content="MÁY NGHIỀN THÔ 2" 
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+               >
+        </Label>
+
+        <Label Name="labMayNghienTho3" Canvas.Left="768"
+               Content="MÁY NGHIỀN THÔ 3" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" Canvas.Top="52"
+               />
+
+        <Label Name="labMayNghienTho4" Canvas.Top="480" Canvas.Left="768"
+               Content="MÁY NGHIỀN THÔ 4" 
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+               >
+        </Label>
+
+        <Label Name="labMayNghienTinh1" Canvas.Left="1386"
+               Content="MÁY NGHIỀN TINH 1" 
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black" RenderTransformOrigin="0.916,0.788" Canvas.Top="52"
+               />
+
+        <Label Name="labMayNghienTinh2" Canvas.Top="480" Canvas.Left="1386"
+               Content="MÁY NGHIỀN TINH 2" 
+               HorizontalAlignment="Right"
+               VerticalAlignment="Center"
+               FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Foreground="Black"
+               >
+        </Label>
+
+        <!-- add UserControl may-->
+        <WPFUserControl:MayNghienTho Name="NghienTho1" 
+                                     Height="300" Width="300" Canvas.Top="98" Canvas.Left="58"
+                                     />
+        <WPFUserControl:MayNghienTho x:Name="NghienTho2" 
+                                     Height="300" Width="300" Canvas.Top="508" Canvas.Left="58"
+                                     />
+        <WPFUserControl:MayNghienTho x:Name="NghienTho3" 
+                                     Height="300" Width="300" Canvas.Top="98"
+                                     Canvas.Left="682" HorizontalAlignment="Center"
+                                     />
+
+        <WPFUserControl:MayNghienTho x:Name="NghienTho4" 
+                                     Height="300" Width="300" Canvas.Top="508"
+                                     Canvas.Left="682"
+                                     />
+
+        <WPFUserControl:MayNghienTinh x:Name="NghienTinh1" 
+                                     Height="300" Width="300" Canvas.Top="98"
+                                     Canvas.Left="1296"
+                                     />
+        <WPFUserControl:MayNghienTinh x:Name="NghienTinh2" 
+                                     Height="300" Width="300" Canvas.Top="518"
+                                     Canvas.Left="1296"
+                                     />
+
+        <!--Grid bảng hiển thị thông tin nhiệt độ các gối bi-->
+        <!--Nhiệt độ gối bi nghiền thô 1-->
+        <EasyScadaApp:ThongTinGoiBi x:Name="thongTinGoiBiNghienTho1" Canvas.Top="391" Canvas.Left="53"/>
+
+        <!--Nhiệt độ gối bi nghiền thô 2-->
+        <EasyScadaApp:ThongTinGoiBi x:Name="thongTinGoiBiNghienTho2" Canvas.Top="810" Canvas.Left="53"/>
+
+        <!--Nhiệt độ gối bi nghiền thô 3-->
+        <EasyScadaApp:ThongTinGoiBi x:Name="thongTinGoiBiNghienTho3" Canvas.Top="391" Canvas.Left="677"/>
+
+        <!--Nhiệt độ gối bi nghiền tinh 1-->
+        <EasyScadaApp:ThongTinGoiBi x:Name="thongTinGoiBiNghienTinh1" Canvas.Top="391" Canvas.Left="1291"/>
+        <!--Nhiệt độ gối bi nghiền thô 4-->
+        <EasyScadaApp:ThongTinGoiBi x:Name="thongTinGoiBiNghienTho4" Canvas.Top="810" Canvas.Left="677"/>
+        <!--Nhiệt độ gối bi nghiền tinh 2-->
+        <EasyScadaApp:ThongTinGoiBi x:Name="thongTinGoiBiNghienTinh2" Canvas.Top="810" Canvas.Left="1291"/>
+
+        <!--Grid bảng hiển thị thông tin nhiệt độ các gối bi-->
+        <!--Thông tin nghiền thô 1-->
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho1" Canvas.Top="129" Canvas.Left="368"/>
+        <!--Thông tin nghiền thô 3-->
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho3" Canvas.Top="129" Canvas.Left="992"/>
+        <!--Thông tin nghiền tinh 1-->
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTinh1" Canvas.Top="129" Canvas.Left="1606"/>
+        <!--Thông tin nghiền thô 2-->
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho2" Canvas.Top="548" Canvas.Left="368"/>
+        <!--Thông tin nghiền thô 4-->
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTho4" Canvas.Top="548" Canvas.Left="992"/>
+        <!--Thông tin nghiền tinh 1-->
+        <EasyScadaApp:ThongTinMayNghienTho x:Name="thongTinMayNghienTinh2" Canvas.Top="548" Canvas.Left="1606"/>
+    </Canvas>
+</UserControl>

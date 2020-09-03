@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="WPFUserControl.HeThongGiuBui"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFUserControl"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ConvertToVisibility x:Key="convertToVisibility" />
+    </UserControl.Resources>
+    <Viewbox>
+        <Grid>
+            <!-- ANH NEN -->
+            <Image Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui.png" Margin="0,-1967,0,-1848" />
+
+            <!-- 1. QUAT HUT -->
+            <Image Visibility="{Binding Path=View_QuatHutChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutChay.png" Margin="8447,1952,-69,-936" />
+            <Image Visibility="{Binding Path=View_QuatHutLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorQuatHutLoi.png" Margin="8548,1918,0,-957" HorizontalAlignment="Left" Width="854" />
+
+            <Image Visibility="{Binding Path=View_QuatHutChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_QuatHutChay.gif" Margin="8074,2005,1108,-940" />
+
+            <!-- 2. VIT TAI LAY LIEU -->
+            <Image Visibility="{Binding Path=View_VitTaiLayLieuChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuChay.png" Margin="4241,1976,4682,-684" />
+            <Image Visibility="{Binding Path=View_VitTaiLayLieuLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_MotorVitTaiLayLieuLoi.png" Margin="4239,1943,4676,-696" />
+
+            <Image Visibility="{Binding Path=View_VitTaiLayLieuChay, Converter={StaticResource convertToVisibility}}" gif:ImageBehavior.AnimatedSource="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_VitTaiLayLieuChay.gif" Margin="203,2031,5217,-684" ></Image>
+            
+            <!-- 3. ROVANTO -->
+            <Image Visibility="{Binding Path=View_RotovanChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanChay.png" Margin="460,1613,8393,-355" />
+            <Image Visibility="{Binding Path=View_RotovanLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_RotovanLoi.png" Margin="453,1645,8403,-304" />
+
+            <!-- 4. GIU BUI -->
+            <Image Visibility="{Binding Path=View_GiuBuiChay, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiChay.png" Margin="4874,-820,4226,2104" />
+            <Image Visibility="{Binding Path=View_GiuBuiLoi, Converter={StaticResource convertToVisibility}}" Source="/WPFUserControl;component/Image/HeThongGiuBui/HeThongGiuBui_GiuBuiLoi.png" Margin="4874,-820,4226,2104" />
+
+        </Grid>
+    </Viewbox>
+</UserControl>
